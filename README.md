@@ -30,6 +30,3 @@ The Gradient Boosting model outperformed all other models with an AUC-ROC of 0.9
   1. Clone the repository.  
   2. Install the requirements with `pip install -r requirements.txt`.  
   3. Run `python analysis.py` to execute the analysis.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
