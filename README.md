@@ -12,18 +12,21 @@ This project aims to analyze credit risk using various machine learning models. 
 6. **Model Evaluation:** Models were assessed based on accuracy, precision, recall, and F1 score.
 
 ## Model Comparisons
-| Model               | Accuracy | Precision | Recall | F1 Score |
-|---------------------|----------|-----------|--------|----------|
-| Logistic Regression  | 0.85     | 0.82      | 0.75   | 0.78     |
-| SVC                  | 0.83     | 0.80      | 0.72   | 0.76     |
-| Random Forest        | 0.88     | 0.85      | 0.80   | 0.82     |
+| Model                       | Test Accuracy |
+|-----------------------------|---------------|
+| Random Forest               | 0.8214        |
+| Logistic Regression         | 0.8071        |
+| Support Vector Machine      | 0.7929        |
+| Tuned SVM (GridSearchCV)    | 0.7929        |
+| XGBoost                     | 0.7643        |
+| Voting Ensemble             | 0.8143        |
 
 ## Results
-The **Random Forest** model outperformed the other models with an accuracy of 0.88 and F1 score of 0.82, demonstrating strong capacity to predict credit default risk. This ensemble method effectively captures complex patterns in the data.
+The current notebook implementation evaluates multiple classifiers on the loan default dataset. The best single-model accuracy is achieved by **Random Forest** at approximately 82.14%. A soft voting ensemble of Random Forest, Logistic Regression, and XGBoost also performs well at about 81.43%.
 
 ## Technical Details
 - **Programming Language:** Python
-- **Libraries Used:** pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Libraries Used:** pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost
 - **Data Source:** https://www.kaggle.com/datasets/atulmittal199174/credit-risk-analysis-for-extending-bank-loans
 - **How to Run:**  
   1. Clone the repository.  
