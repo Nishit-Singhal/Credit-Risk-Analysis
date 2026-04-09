@@ -4,7 +4,7 @@
 This project aims to analyze credit risk using various machine learning models. The goal is to predict the likelihood that a loan will default based on a set of features associated with the loan and the borrower.
 
 ## Methodology
-1. **Data Collection:** We collected data from [source], which contains details of loans granted by financial institutions.
+1. **Data Collection:** We collected data from "https://www.kaggle.com/datasets/atulmittal199174/credit-risk-analysis-for-extending-bank-loans", which contains details of loans granted by financial institutions.
 2. **Data Preprocessing:** The data underwent cleaning to handle missing values, categorical encoding, and normalization of numerical features.
 3. **Feature Engineering:** New features were created based on domain knowledge to improve model performance.
 4. **Model Selection:** We evaluated several machine learning algorithms including Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting.
@@ -25,7 +25,7 @@ The Gradient Boosting model outperformed all other models with an AUC-ROC of 0.9
 ## Technical Details
 - **Programming Language:** Python
 - **Libraries Used:** pandas, numpy, scikit-learn, matplotlib, seaborn
-- **Data Source:** [Link to data source]
+- **Data Source:** https://www.kaggle.com/datasets/atulmittal199174/credit-risk-analysis-for-extending-bank-loans
 - **How to Run:**  
   1. Clone the repository.  
   2. Install the requirements with `pip install -r requirements.txt`.  
