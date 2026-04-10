@@ -4,7 +4,7 @@
 This project aims to analyze credit risk using various machine learning models. The goal is to predict the likelihood that a loan will default based on a set of features associated with the loan and borrower characteristics.
 
 ## Methodology
-1. **Data Collection:** We collected data from "https://www.kaggle.com/datasets/atulmittal199174/credit-risk-analysis-for-extending-bank-loans", which contains details of loans granted by financial institutions.
+1. **Data Collection:** Collected data from "https://www.kaggle.com/datasets/atulmittal199174/credit-risk-analysis-for-extending-bank-loans", which contains details of loans granted by financial institutions.
 2. **Data Preprocessing:** The data underwent cleaning to handle missing values, categorical encoding, and normalization of numerical features.
 3. **Feature Engineering:** New features were created based on domain knowledge to improve model performance.
 4. **Model Selection:** We evaluated several machine learning algorithms including Logistic Regression, Support Vector Classifier (SVC), and Random Forest.
